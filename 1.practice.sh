@@ -34,5 +34,13 @@ read bike_name
 
 echo "bike name is $bike_name"
 
+#read input with prompt
+
+echo "enter your name"
+
+read -p "enter your name" person_name person_age
+
+echo "person name is $person_name and person age is $person_age"
+
 
 
