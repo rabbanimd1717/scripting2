@@ -49,11 +49,11 @@ echo "enter user_name"
 
 echo "enter password"
 
-read -s -p "username is :" username
+read -s -p "username is :" user_name
 
-read -s -p "password is : " userpassword
+read -s -p "password is : " user_password
 
-echo "$username and $userpassword"
+echo "$user_name and $user_password"
 
 
 
