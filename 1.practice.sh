@@ -74,9 +74,9 @@ echo "$user_name and $user_password"
 
 favourite_players=("Raina" "Hayden" "Hussey")
 
-echo "my die hard fan is: "${favourite_player[0]}"
+echo "my die hard fan is: ${favourite_player[0]}"
 
-echo "my all time favourites is: "${favourite_player[@]}"
+echo "my all time favourites is: ${favourite_player[@]}"
 
 
 
