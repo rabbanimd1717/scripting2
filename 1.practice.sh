@@ -119,6 +119,7 @@ then
     echo "THIS is perfect no need to go else its a is eual to 10"
 else
     echo "This is not euals to 10"
+fi
 
 
 
