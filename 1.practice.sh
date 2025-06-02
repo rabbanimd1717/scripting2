@@ -110,6 +110,17 @@ echo "process id shown in background: $!"
 sleep 300&
 
 
+#using conditions
+
+a=10 
+
+if [ $a -eq 10 ]
+then
+    echo "THIS is perfect no need to go else its a is eual to 10"
+else
+    echo "This is not euals to 10"
+
+
 
 
 
