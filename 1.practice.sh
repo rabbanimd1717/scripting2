@@ -26,4 +26,13 @@ echo "$PERSON2 is a billionarie"
 echo "$person1 and $PERSON2 is same persons"
 
 
+#read input
+
+echo "enter your bike name with variant"
+
+read bike_name
+
+echo "bike name is $bike_name"
+
+
 
