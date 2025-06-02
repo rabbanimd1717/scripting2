@@ -43,4 +43,17 @@ read -p "enter your name" person_name person_age
 echo "person name is $person_name and person age is $person_age"
 
 
+#read input with silent with prompt
+
+echo "enter user_name"
+
+echo "enter password"
+
+read -s "username is :" user_name
+
+read -s "password is : " user_password
+
+echo "$user_name and $user_password"
+
+
 
