@@ -78,6 +78,15 @@ echo "my die hard fan is: ${favourite_players[0]}"
 
 echo "my all time favourites is: ${favourite_players[@]}"
 
+# using and practicing arthmetic
+
+NUMBER1=$11
+NUMBER2=$12
+
+echo "addition of 2 numbers : $((NUMBER1+NUMBER2))"
+
+echo "$NUMBER1 and $NUMBER2"
+
 
 
 
