@@ -43,7 +43,7 @@ read -p "enter your name" person_name person_age
 echo "person name is $person_name and person age is $person_age"
 
 
-#read input with silent with prompt
+#read input with silent 
 
 echo "enter user_name"
 
@@ -54,6 +54,44 @@ read -s user_name
 read -s user_password
 
 echo "$user_name and $user_password"
+
+
+
+#read input with silent and prompt
+
+echo "enter user_name"
+
+echo "enter password"
+
+read -s -p "enter your name:" user_name
+
+read -s -p "enter your password:" user_password
+
+echo "$user_name and $user_password"
+
+
+# practice with Arrays
+
+favourite_players=("Raina" "Hayden" "Hussey")
+
+echo "my die hard fan is: "${favourite_player[0]}"
+
+echo "my all time favourites is: "${favourite_player[@]}"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
