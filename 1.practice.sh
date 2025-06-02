@@ -107,7 +107,7 @@ echo "process id of current shell_script: $$"
 
 echo "process id shown in background: $!"
 
-sleep 300 
+sleep 300&
 
 
 
