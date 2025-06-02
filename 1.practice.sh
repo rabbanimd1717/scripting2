@@ -87,6 +87,24 @@ echo "addition of 2 numbers : $((NUMBER1+NUMBER2))"
 
 echo "$NUMBER1 and $NUMBER2"
 
+#using special variables"
+
+echo "display all variables using command line arguments: $@"
+
+echo "count of the variables passes: $#"
+
+echo "script_name : $0"
+
+echo "current working directory: $PWD"
+
+echo "current user of working directory: $HOME"
+
+echo "which user is running the script: $USER"
+
+echo "hostname is: $HOSTNAME"
+
+echo "process id of current shell_script: $$"
+
 
 
 
