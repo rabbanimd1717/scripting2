@@ -8,10 +8,12 @@ echo $SHELL
 
 echo $#
 
+expected_output=${12}
 
-if [ $given_number -eq $12 ]
+
+if [ $given_number -eq $expected_output ]
 then
-    echo "Given number ${given_number} is equal to echo $13"
+    echo "Given number ${given_number} is equal to $expected_output"
 else
-    echo "Given number ${given_number} is not equal to echo $13"
+    echo "Given number ${given_number} is not equal to $expected_output"
 fi
