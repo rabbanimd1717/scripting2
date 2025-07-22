@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ech "This is hello world project"
+echo "This is hello world project"
