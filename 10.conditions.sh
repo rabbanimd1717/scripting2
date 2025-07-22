@@ -17,3 +17,5 @@ then
 else
     echo "Given number ${given_number} is not equal to $expected_output"
 fi
+
+#-eq, -ne, -gt, -lt, -ge, -le
