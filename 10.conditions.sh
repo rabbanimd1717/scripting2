@@ -4,7 +4,7 @@
 
 given_number=${11}
 
-ech0 $SHELL
+echo $SHELL
 
 echo $#
 
