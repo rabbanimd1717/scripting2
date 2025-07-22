@@ -10,3 +10,5 @@ MOVIES=("Manmadhudu" "Jalsa" "khaleja")
 #size is 1,2,3 like 3
 
 echo "My first favourite movie is: ${MOVIES[0]}"
+echo "My second fav movie is: ${MOVIES[1]}"
+echo "size of this movies: ${MOVIES[@]}
