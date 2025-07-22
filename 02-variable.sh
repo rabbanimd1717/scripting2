@@ -1,7 +1,11 @@
 #!/bin/bash
 
-echo "Rabbani: Hi Raina i'm Rabbani How are you"
-echo "Raina: im fine nice to meet you. what about you Rabbani"
-echo "Rabbani: im also good Raina. I'm a big fan of to you Raina."
-echo "Raina: Thanks Rabbani its mean a lot to me."
-echo "Rabbani: im big fan of that inningd id 25 balls of 87 runs you scored Raina"
+PERSON1=Pawan
+PERSON2=MAhesh
+
+echo "$PERSON1: Hi $PERSON2 i'm $PERSON1 How are you"
+echo  $PERSON2: im fine nice to meet you. what about you $PERSON1"
+echo "$PERSON1: im also good $PERSON2. I'm a big fan of to you $PERSON2."
+echo  $PERSON2: Thanks $PERSON1 its mean a lot to me."
+echo "$PERSON1: im big fan of that inningd id 25 balls of 87 runs you scored $PERSON2"
+
