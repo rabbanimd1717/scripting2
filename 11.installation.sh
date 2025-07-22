@@ -6,7 +6,7 @@
 
 USER_ID=$(id -u)
 
-if [ USER_ID -eq 0 ]
+if [ $USER_ID -eq 0 ]
 then
     echo "This is super user proceed to run the package"
     exit 1
