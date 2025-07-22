@@ -14,13 +14,14 @@ else
     exit 1
 fi
 
-dnf install git -y
+dnf install gitt -y
 
 if [ $? -eq 0 ]
 then
     echo "Git installtion is SUCCESS"
 else
     echo "Git installation is FAILURE"
+    exit 1
 fi
 
 echo "installing git"
