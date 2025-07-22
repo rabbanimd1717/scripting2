@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#variables is name of a memory location, 
+#here we are storing the values, the value can be changed during the prograam script execution
+
 PERSON1=Pawan
 PERSON2=MAhesh
 
