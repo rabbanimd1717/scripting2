@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#command line arguments with read a value at runtime with silently
+#command line arguments with read a value at runtime with silently and secretly entered
 
 echo $shell
 
@@ -12,4 +12,4 @@ echo "Enter Instagram password: "
 
 read -s PASSWORD
 
-echo "$USERNAME and $PASSWORD"
+echo "what you secretly entered of $USERNAME and $PASSWORD"
