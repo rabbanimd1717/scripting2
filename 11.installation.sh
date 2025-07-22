@@ -14,7 +14,7 @@ else
     exit 1
 fi
 
-dnf install mysql -y
+dnf install git -y
 
-echo "installing mysql"
+echo "installing git"
 
