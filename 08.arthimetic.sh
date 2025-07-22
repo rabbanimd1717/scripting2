@@ -9,5 +9,5 @@ echo $0
 echo $1
 echo $2
 
-echo "sum of addition is $((MYSALARY+EXPENSES))
-echo "sub is: $((MYSALARY-EXPENSES))"
+echo "sum of addition is=$((MYSALARY+EXPENSES))
+echo "sub is=$((MYSALARY-EXPENSES))"
