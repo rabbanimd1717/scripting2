@@ -35,27 +35,8 @@ else
 fi
 
 dnf install git -y
-
-if [ $? -eq 0 ]
-then
-    echo "installation of git is SUCCESS"
-else
-    echo "installation of git is FAILURE"
-fi
-
 new_fun $? "installing git"
 
-
-
-dnf install mysql -y
-
-if [ $? -eq 0 ]
-then 
-    echo "installation of mysql is SUCCESS"
-else
-    echo "installation of mysql is FAILURE"
-    exit 0
-fi
-
+dnf install mysql1 -y
 new_fun $? "installing mysql"
 
