@@ -54,7 +54,7 @@ then
     echo "installation of mysql is SUCCESS"
 else
     echo "installation of mysql is FAILURE"
-    exit 1
+    exit 0
 fi
 
 new_fun $? "installing mysql"
