@@ -35,9 +35,9 @@ else
     echo "This is SUPER USER then install packages"
 fi
 
-dnf install git -y >> $LOGFILE
+dnf install git -y &>>$LOGFILE
 new_fun $? "installing git"
 
-dnf install mysql1 -y >> $LOGFILE
+dnf install mysql1 -y &>>$LOGFILE
 new_fun $? "installing mysql"
 
