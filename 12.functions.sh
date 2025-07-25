@@ -47,7 +47,7 @@ new_fun $? "installing git"
 
 
 
-dnf install mysql1 -y
+dnf install mysql -y
 
 if [ $? -eq 0 ]
 then 
