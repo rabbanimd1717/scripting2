@@ -28,9 +28,9 @@ new_fun(){
 
 }
 
-dnf install mysql >> $Log_file
+dnf install mysql1 >> $Log_file
 
-new_fun $? "installing mysql1"
+new_fun $? "installing mysql"
 
 
 dnf install git -y >> $Log_file
