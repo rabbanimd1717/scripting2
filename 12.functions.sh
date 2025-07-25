@@ -8,8 +8,8 @@ USER_ID=$(id -u)
 
 
 FUN_Name(){
-    $PWD
-    $0
+    echo $PWD
+    echo $0
 }
 
 FUN_Name
