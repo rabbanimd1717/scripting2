@@ -7,7 +7,7 @@
 USER_ID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 SCRIPT_NAME=$(echo $0 | awk -F "." '{print $2F}')
-LOGFILE=/tmp/$SCRIPT_NAME/$TIMESTAMP.log
+LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 
 
 FUN_Name(){
