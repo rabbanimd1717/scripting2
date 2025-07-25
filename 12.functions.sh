@@ -7,6 +7,7 @@
 USER_ID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 SCRIPT_NAME=$(echo $0 | awk -F "." '{print $2F}')
+LOGFILE=/tmp/$SCRIPT_NAME/$TIMESTAMP.log
 
 
 FUN_Name(){
@@ -34,9 +35,9 @@ else
     echo "This is SUPER USER then install packages"
 fi
 
-dnf install git -y
+dnf install git -y &>> $LOGFILE
 new_fun $? "installing git"
 
-dnf install mysql1 -y
+dnf install mysql1 -y &>> $LOGFILE
 new_fun $? "installing mysql"
 
