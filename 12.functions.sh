@@ -15,8 +15,13 @@ FUN_Name(){
 FUN_Name
 
 new_fun(){
-    echo "This is function"
-    echo "git and mysql installed"
+    if [ $1 -eq 0 ]
+    then
+        echo "$2 is SUCCESS"
+    else
+        echo "$2 is FAILURE"
+        exit 1
+    fi
 }
 
 
@@ -38,7 +43,7 @@ else
     echo "installation of git is FAILURE"
 fi
 
-new_fun
+new_fun $? "installing git"
 
 
 
@@ -52,5 +57,5 @@ else
     exit 1
 fi
 
-echo "mysql is installed"
+new_fun $? "installing mysql"
 
