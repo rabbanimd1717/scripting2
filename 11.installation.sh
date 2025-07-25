@@ -26,3 +26,14 @@ fi
 
 echo "installing git"
 
+dnf install mysql -y
+
+if [ $? -ne 0 ]
+then 
+    echo "installing my sql is FAILURE"
+    exit 1
+else
+    echo "installing mysql is SUCCESS"
+fi
+echo "installed mysql"
+
