@@ -26,7 +26,7 @@ fi
 
 echo "installing git"
 
-dnf install mysql -y
+dnf install mysq1l -y
 
 if [ $? -ne 0 ]
 then 
