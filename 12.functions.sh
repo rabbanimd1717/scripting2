@@ -14,6 +14,14 @@ FUN_Name(){
 
 FUN_Name
 
+new_fun(){
+    echo "This is function"
+    echo "git and mysql installed"
+}
+
+
+
+
 if [ $USER_ID -ne 0 ]
 then
     echo "This is not super user....dont go to further"
@@ -30,8 +38,7 @@ else
     echo "installation of git is FAILURE"
 fi
 
-
-echo "git is installed"
+new_fun
 
 
 
