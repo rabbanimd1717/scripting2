@@ -5,6 +5,8 @@
 #block of code is repeating, considering function
 
 USER_ID=$(id -u)
+TIMESTAMP=$(date +%F-%H-%M-%S)
+SCRIPT_NAME=$(echo $0 | awk -F "." '{print $2F}')
 
 
 FUN_Name(){
@@ -23,8 +25,6 @@ new_fun(){
         exit 1
     fi
 }
-
-
 
 
 if [ $USER_ID -ne 0 ]
