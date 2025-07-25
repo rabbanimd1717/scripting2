@@ -6,9 +6,37 @@
 
 USER_ID=$(id -u)
 
+
+
 if [ $USER_ID -ne 0 ]
 then
     echo "This is not super user....dont go to further"
 else
     echo "This is SUPER USER then install packages"
 fi
+
+dnf install git -y
+
+if [ $? -eq 0 ]
+then
+    echo "installation of git is SUCCESS"
+else
+    echo "installation of git is FAILURE"
+fi
+
+
+echo "git is installed"
+
+
+
+dnf install mysql -y
+
+if [ $? -eq 0 ]
+then 
+    echo "installation of mysql is SUCCESS"
+else
+    echo "installation of mysql is FAILURE"
+fi
+
+echo "mysql is installed"
+
