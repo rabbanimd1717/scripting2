@@ -12,6 +12,7 @@ FUN_Name(){
     $0
 }
 
+FUN_NAME
 
 if [ $USER_ID -ne 0 ]
 then
@@ -41,6 +42,7 @@ then
     echo "installation of mysql is SUCCESS"
 else
     echo "installation of mysql is FAILURE"
+    exit 1
 fi
 
 echo "mysql is installed"
