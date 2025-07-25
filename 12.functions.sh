@@ -7,6 +7,11 @@
 USER_ID=$(id -u)
 
 
+FUN_Name(){
+    $PWD
+    $0
+}
+
 
 if [ $USER_ID -ne 0 ]
 then
@@ -29,7 +34,7 @@ echo "git is installed"
 
 
 
-dnf install mysql -y
+dnf install mysql1 -y
 
 if [ $? -eq 0 ]
 then 
