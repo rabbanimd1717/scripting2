@@ -12,7 +12,7 @@ FUN_Name(){
     $0
 }
 
-FUN_NAME
+FUN_Name
 
 if [ $USER_ID -ne 0 ]
 then
