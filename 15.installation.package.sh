@@ -27,5 +27,11 @@ fi
 for i in $@
 do
     echo "package install: $i"
-    dnf list installed $i &>>LOGSFILE
+    dnf list installed $i &>> $LOGSFILE
+    if [ $? -eq 0 ]
+    then
+        echo "$i is installed: skipping"
+    else
+        dnf install $i  -y &>> $LOGSFILE
+        VALIDATE_FUN $? "INSTALLING of $i"
 done
