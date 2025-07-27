@@ -20,11 +20,6 @@ else
     exit 1
 fi
 
-dnf install mysqll1 -y
-VALIDATE_FUN $? "INSTALLING MYSQL"
-
-dnf install git -y 
-VALIDATE_FUN $? "INSTALLING GIT"
 
 for i in $@
 do
