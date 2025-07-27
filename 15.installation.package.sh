@@ -2,7 +2,7 @@
 
 USER_ID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
-SCRIPTNAME=$(echo $0 | cut -d "." -f1)
+SCRIPTNAME=$(echo $0 | cut -d "." -f2)
 LOGSFILE=/tmp/$SCRIPTNAME-$TIMESTAMP.log
 
 VALIDATE_FUN(){
