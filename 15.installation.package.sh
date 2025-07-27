@@ -1,6 +1,9 @@
 #!/bin/bash
 
 USER_ID=$(id -u)
+TIMESTAMP=$(date +%F-%H-%M-%S)
+SCRIPTNAME=$(echo $0 | cut -d "." -f1)
+LOGSFILE=/tmp/$SCRIPTNAME-$TIMESTAMP.log
 
 VALIDATE_FUN(){
     if [ $1 -eq 0 ]
@@ -24,5 +27,5 @@ fi
 for i in $@
 do
     echo "package install: $i"
-    dnf list installed $i
+    dnf list installed $i &>>LOGSFILE
 done
