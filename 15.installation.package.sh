@@ -30,3 +30,4 @@ for i in $@
 do
     echo "package install: $i"
     dnf list installed $i
+done
