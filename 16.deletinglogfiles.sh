@@ -21,3 +21,10 @@ then
 else
     echo "$SOURCE_DIRECTORY does not exit please make sure $SOURCE_DIRECTORY"
 fi 
+
+ls -l
+
+
+#while loop
+
+
