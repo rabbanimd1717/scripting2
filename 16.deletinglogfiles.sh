@@ -1,6 +1,20 @@
 #!/bin/bash
 SOURCE_DIRECTORY=/tmp/app-logs
 
+
+
+if [ $SOURCE_DIRECTORY -eq 0 ]
+then
+    echo "Directory already created"
+else
+    echo "Directory not created"
+    mkdir -p $SOURCE_DIRECTORY
+    exit 1
+fi
+
+
+
+
 if [ -d $SOURCE_DIRECTORY ]
 then
     echo "$SOURCE_DIRECTORY is exists"
